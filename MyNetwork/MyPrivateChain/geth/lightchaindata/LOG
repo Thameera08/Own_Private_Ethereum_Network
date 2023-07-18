@@ -1,0 +1,12 @@
+=============== Jul 14, 2023 (+0530) ===============
+22:35:29.785263 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:35:29.785768 version@stat F·[] S·0B[] Sc·[]
+22:35:29.785768 db@open opening
+22:35:29.785768 journal@recovery F·1
+22:35:29.785768 journal@recovery recovering @2
+22:35:29.786773 journal@drop journal-2 S·1KiB "invalid chunk type 0x5"
+22:35:29.788783 version@stat F·[] S·0B[] Sc·[]
+22:35:29.791773 db@janitor F·2 G·0
+22:35:29.791773 db@open done T·6.0048ms
+22:35:29.801283 db@close closing
+22:35:29.801283 db@close done T·0s

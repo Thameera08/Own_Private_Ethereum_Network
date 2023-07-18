@@ -1,0 +1,44 @@
+=============== Jul 14, 2023 (+0530) ===============
+22:35:29.747985 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:35:29.748980 manifest error: leveldb: manifest corrupted (field 'comparer'): short read [file=MANIFEST-000006] (skipped)
+=============== Jul 14, 2023 (+0530) ===============
+22:35:29.748980 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:35:29.748980 table@recovery F·1
+22:35:29.748980 table@recovery recovering @4
+22:35:29.749980 table@recovery unrecoverable @4 Ck·0 Cb·0 S·1317
+22:35:29.749980 table@recovery recovered F·1 N·0 Gk·0 Ck·0 Q·0
+22:35:29.752988 version@stat F·[] S·0B[] Sc·[]
+22:35:29.754987 db@open opening
+22:35:29.754987 journal@recovery F·1
+22:35:29.756257 journal@recovery recovering @5
+22:35:29.759217 version@stat F·[] S·0B[] Sc·[]
+22:35:29.762230 db@janitor F·5 G·2
+22:35:29.762230 db@janitor removing table-4
+22:35:29.764219 remove 000004.ldb: remove C:\MyNetwork\MyPrivateChain\geth\chaindata\000004.ldb: The system cannot find the file specified. (old name)
+22:35:29.764219 db@janitor removing manifest-1
+22:35:29.764219 db@open done T·9.2315ms
+22:35:29.773754 db@close closing
+22:35:29.773754 db@close done T·0s
+=============== Jul 14, 2023 (+0530) ===============
+22:48:53.618629 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:48:53.620628 version@stat F·[] S·0B[] Sc·[]
+22:48:53.620628 db@open opening
+22:48:53.620628 journal@recovery F·1
+22:48:53.623628 journal@recovery recovering @6
+22:48:53.626134 memdb@flush created L0@7 N·10 S·567B "Hѡ..L\x87%,v3":"r\x00\x00..L\x87%,v5"
+22:48:53.630143 version@stat F·[1] S·567B[567B] Sc·[0.25]
+22:48:53.634142 db@janitor F·4 G·1
+22:48:53.634142 db@janitor removing manifest-6
+22:48:53.634142 db@open done T·13.5145ms
+=============== Jul 14, 2023 (+0530) ===============
+23:10:58.531444 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:10:58.532439 version@stat F·[1] S·567B[567B] Sc·[0.25]
+23:10:58.532439 db@open opening
+23:10:58.532439 journal@recovery F·1
+23:10:58.535438 journal@recovery recovering @8
+23:10:58.538958 memdb@flush created L0@10 N·1 S·192B "Dat..ion,v12":"Dat..ion,v12"
+23:10:58.543973 version@stat F·[2] S·759B[759B] Sc·[0.50]
+23:10:58.549109 db@janitor F·4 G·0
+23:10:58.549109 db@open done T·16.6701ms
+23:10:58.644102 db@close closing
+23:10:58.645103 db@close done T·1.0009ms
